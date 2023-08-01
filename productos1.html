@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+	
+<style>	
+	body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+	.bar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #BF9FEE;
+  padding: 10px;
+}
+	
+	.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #F2C0FF;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #F2C0FF;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	.contenido {
+  max-width: auto;
+  margin: auto;
+  background-color: #F2C0FF;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	h1 {
+  text-align: center;
+  margin-bottom: 20px;
+	}
+
+	.product {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #BF9FEE;
+  padding: 10px;
+	}
+
+	.product img {
+  max-width: 100px;
+  margin-right: 10px;
+	}
+
+	.product p {
+  margin: 0;
+	}
+
+	.product-name {
+  font-weight: bold;
+	}
+
+	.product-price {
+  color: #007bff;
+	}
+
+	footer {
+  margin-top: 20px;
+	}
+
+	#mapa {
+  height: 400px;
+  width: 100%;
+	}
+	
+	.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+	.bonito{
+		display: grid;
+		grid-template-columns: repeat(4, 600px);
+		gap: 30px;
+		margin-bottom: 30px;
+	}
+	
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+	
+</style>	
+
+<head>
+<title>Mari Liquidos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Mari Liquidos</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"> Huele Bonito </a></li>
+        </ul>
+      </li>
+      <li><a href="#">  </a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+
+      <li><a href="Carrito.html"><span class="glyphicon glyphicon-shopping-cart"> <label for="quantity"> 0 </label>  Carrito</span></a></li>
+    </ul>
+  </div>
+</nav>
+</head>
+	
+<body style="background-color: #FFD7E8;">
+
+	<div class="bonito">
+	<div class="card">
+  <img src="Imagenes/detergente-generico-x1000g.jpg" alt="Detergente" style="width:100%">
+  <h1>Detergente</h1>
+  <p class="price">$17.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+		<div class="card">
+  <img src="Imagenes/uline.png" alt="Uline" style="width:100%">
+  <h1>Uline</h1>
+  <p class="price">$19.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+		<div class="card">
+  <img src="Imagenes/61UfFHrFTiL.__AC_SY300_SX300_QL70_ML2_.jpg" alt="Purell" style="width:100%">
+  <h1>Purell</h1>
+  <p class="price">$49.99</p>
+
+  <p><button>Agregar al carrito</button></p>
+</div>
+</div>
+<div class="bonito">
+	<div class="card">
+  <img src="Imagenes/355CV2_AS01.jpg" alt="Cloros" style="width:100%">
+  <h1>Cloro</h1>
+  <p class="price">$4.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+		<div class="card">
+  <img src="Imagenes/51TiK-6RMqL._AC_.jpg" alt="Mr. Brazo" style="width:100%">
+  <h1>Brasso</h1>
+  <p class="price">$9.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+		<div class="card">
+  <img src="Imagenes/gsc_113834974_783799_1.jpg" alt="Weiman" style="width:100%">
+  <h1>Weiman</h1>
+  <p class="price">$30.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+</div><div class="bonito">
+	<div class="card">
+  <img src="Imagenes/51wV+ITRTlL._AC_SY300_SX300_.jpg" alt="Zep" style="width:100%">
+  <h1>Zep</h1>
+  <p class="price">$9.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+		<div class="card">
+  <img src="Imagenes/orf7ym1pvhgtfbqwvy0l.jpg" alt="Resolve" style="width:100%">
+  <h1>Resolve</h1>
+  <p class="price">$7.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+		<div class="card">
+  <img src="Imagenes/716pmnktjCL.__AC_SX300_SY300_QL70_ML2_.jpg" alt="Windex" style="width:100%">
+  <h1>Windex</h1>
+  <p class="price">$12.99</p>
+  <p><button>Agregar al carrito</button></p>
+</div>
+</div>
+		
+	</body>
+</html>
